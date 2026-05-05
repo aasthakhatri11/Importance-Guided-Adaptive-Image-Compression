@@ -1,4 +1,4 @@
-# Compression Utilities (Adaptive JPEG Pipeline)
+# Compression Utilities 
 '''
 Implements standard and adaptive JPEG operations using DCT, quantization, reconstruction. 
 Importance maps are used to allocate more bits to visually important regions while mainataining overall compression efficiency.
