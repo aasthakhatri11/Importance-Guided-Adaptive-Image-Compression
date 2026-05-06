@@ -81,6 +81,7 @@ The method improves PSNR without degrading structural similarity.
 ### SSIM
 
 SSIM is equivalent between methods (0.9255 adaptive vs 0.9256 standard). The method improves pixel-level fidelity without degrading structural similarity.
+
 ---
 
 ## What the Importance Map Learns
