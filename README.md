@@ -10,7 +10,7 @@
 
 ---
 
-![Demo](results/demo_final.gif)
+![Demo](results/gifs/demo_final.gif)
 
 ---
 
@@ -51,7 +51,7 @@ The model predicts an importance map from paired high and low resolution inputs,
 
 ### Rate–Distortion Curve
 
-![RD Curve](results/rd_curve_final.png)
+![RD Curve](results/plots/rd_curve_final.png)
 
 PSNR gains grow consistently with quality level:
 
@@ -69,7 +69,7 @@ The method improves PSNR without degrading structural similarity.
 
 ### Visual Comparison
 
-![Comparison](results/comparison.png)
+![Comparison](results/plots/comparison.png)
 
 ### Per-Image Analysis — Q=40, 137 images
 
@@ -95,7 +95,7 @@ The model learns to focus bits on:
 
 ## What the Importance Map Learns
 
-![Importance Map Grid](results/focus_only.gif)
+![Importance Map Grid](results/gifs/focus_only.gif)
 
 The model learns to preserve:
 - Sharp edges and object boundaries
