@@ -117,11 +117,23 @@ image-compression-importance/
 ├── src/
 │   └── compression_utils.py         # DCT-based adaptive JPEG compression
 ├── results/
-│   ├── demo_final.gif               # Animated demo
-│   ├── rd_curve_final.png           # Rate-distortion curve
-│   ├── comparison.png               # Visual side-by-side comparison
-│   ├── importance_maps_grid.png     # Importance map examples
-│   └── psnr_gain_bar.png            # Per-image PSNR gain chart
+│   ├── plots/                         # Visual results
+│   │   ├── comparison.png             # Compression comparison
+│   │   ├── importance_grid.png        # Importance maps
+│   │   ├── per_image_rd.png           # Per-image RD curves
+│   │   ├── psnr_gain_bar.png          # PSNR gains
+│   │   ├── rd_curve_final.png         # RD curve
+│   │   ├── scatter_test.png           # RMSE vs BPP
+│   │   └── training_convergence.png   # Loss curves
+│   │
+│   ├── gifs/                          # Animations
+│   │   ├── demo_final.gif             # Full demo
+│   │   └── focus_only.gif             # Focus visualization
+│   │
+│   └── metrics/                       # Numerical results
+│       ├── compression_engine_results.json
+│       ├── test_results.json
+│       └── compression_results.csv
 ├── models/
 │   └── best_model.pth               # Pretrained weights (see Releases)
 ├── LICENSE
