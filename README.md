@@ -62,11 +62,6 @@ PSNR gains grow consistently with quality level:
 | Q=60 | +0.24 dB |
 | Q=80 | +0.37 dB |
 
-### Perceptual Quality (SSIM)
-
-SSIM is equivalent between methods (0.9172 both). 
-The method improves PSNR without degrading structural similarity.
-
 ### Visual Comparison
 
 ![Comparison](results/plots/comparison.png)
@@ -81,15 +76,6 @@ The method improves PSNR without degrading structural similarity.
 ### SSIM
 
 SSIM is equivalent between methods (0.9255 adaptive vs 0.9256 standard). The method improves pixel-level fidelity without degrading structural similarity.
-
----
-
-## What the Importance Map Learns
-
-The model learns to focus bits on:
-- Sharp edges and object boundaries
-- High-frequency textures 
-- Semantically salient regions
 
 ---
 
